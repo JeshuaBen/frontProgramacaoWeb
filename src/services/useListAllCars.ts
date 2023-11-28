@@ -18,7 +18,7 @@ export const useListAllCars = () => {
       setCars(data);
     } catch (err) {
       if (err) {
-        alert("Erro ao listar os carros");
+        alert("Erro ao listar todos os carros");
       }
     } finally {
       setIsLoading(false);
